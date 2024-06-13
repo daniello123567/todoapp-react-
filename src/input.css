@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.labels{
+  @apply font-semibold mb-1
+}
+.inp{
+  @apply px-5 border w-[80%] h-[3em] rounded mb-3
+}
+.prop{
+  @apply text-sm text-white px-2 py-1 hover:opacity-85
+}
+.div{
+  @apply flex flex-row gap-2
+}
